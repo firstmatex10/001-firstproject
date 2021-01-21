@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+}
+.copyright{
+    width: 100%;
+    height: 100px;  
+}
+ #copytext{
+     padding-top: 35px;
+     padding-left: 300px;
+    color: white;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+.container-fluid{
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.navbar li a{
+    color: orangered;
+}
+
+.navbar .fab{
+    font-size: 16px;
+    color: blue;
+}
+.navbar .fab:hover{
+    font-size: 16px;
+    color: red !important;
+}
+
+
+
+.carousel-item{
+    max-height: 550px;
+    background:#ccc;
+}
+
+.carousel-item p, .carousel-item h5{
+    text-shadow: black 2px 2px 5px;
+}
+
+/* .carousel-item {    
+    transform: translate(0, -50%);
+} */
+
+#welcome .col-lg{
+    padding: 75px;
+    text-align: center;
+}
+
+
+#welcome img{
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 750px) {
+    
+    #welcome .col-lg{
+        padding-top: 5vh;
+        padding-left: 15vw;
+        padding-right: 15vw;
+        padding-bottom: 1vh;
+    }
+}
+#img1{
+    -webkit-transform: scale(1,1);
+    transform:scale(1.1);
+    
+    
+}
+#img1:hover{
+    -webkit-transform: ease .5s translate(1.1);
+    transform:scale(1,1.01);
+    border: solid ; color: red ;
+    
+
+}
+#img2{
+    -webkit-transform: scale(1,1);
+    transform:scale(1.1);
+    
+    
+}
+#img2:hover{
+    -webkit-transform: ease .5s translate(1.1);
+    transform:scale(1,1.01);
+    border: solid ; color: red ;
+    
+
+}
+#img3{
+    -webkit-transform: scale(1,1);
+    transform:scale(1.1);
+    
+    
+}
+#img3:hover{
+    -webkit-transform: ease .5s translate(1.1);
+    transform:scale(1,1.01);
+    border: solid ; color: red ;
+    
+
+}
+#img4{
+    -webkit-transform: scale(1,1);
+    transform:scale(1.1);
+    
+    
+}
+#img4:hover{
+    -webkit-transform: ease .5s translate(1.1);
+    transform:scale(1,1.01);
+    border: solid ; color: red ;
+    
+
+}
+#img5{
+    -webkit-transform: scale(1,1);
+    transform:scale(1.1);
+    
+    
+}
+#img5:hover{
+    -webkit-transform: ease .5s translate(1.1);
+    transform:scale(1,1.01);
+    border: solid ; color: red ;
+}
+/* #row1{
+    padding-left: 1px;
+} */
